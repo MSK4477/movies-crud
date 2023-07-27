@@ -1,0 +1,38 @@
+@import "colors";
+
+.user{
+position: relative;
+top: 0px;
+width: 100%;
+height: calc(100vh + 100px);
+background-color: $second;
+
+
+.listUser{
+    width: 250px;
+    height: 400px;
+    background-color: #d9d7d7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+position: relative;
+top: 20px;
+
+}
+img{
+    width: 200px;
+    height: auto;
+}
+   
+}
+h2{
+    font-family: $text1;
+
+    position: relative;
+    top: 10px;
+}
